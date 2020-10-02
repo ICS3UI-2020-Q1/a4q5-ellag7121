@@ -21,6 +21,12 @@ public class Main {
     System.out.println("Please enter a positive integer to see the hailstone sequence.");
     number = input.nextInt();
 
+
+    //tell user the sequence is starting
+    System.out.println("Hailstone sequence is the following:");
+    //print the starting number to the screen
+    System.out.println(number);
+
     do{
         //get remainder of number divided by 2
         remainder = number % 2; //0 if even, 1 if odd
